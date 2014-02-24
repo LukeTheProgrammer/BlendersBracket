@@ -1,0 +1,163 @@
+/*-------------Reset.css--------------*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*------Real CSS------*/
+
+#header {
+    width: 100%;
+    height: 100px;
+    background-color: #fc6;
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: 20px;
+}
+#header a img {
+    padding: 10px;
+    float: left;
+}
+#header h1 {
+    padding-top: 8px;
+    padding-left: 125px;
+    margin-top: 20px;
+    font-size: 34px;
+    font-weight: bold;
+}
+#container {
+    width: 1500px;
+    position: relative;
+    margin: 0 auto;
+}
+#midwest {
+    width: 650px;
+    display: inline-block;
+    vertical-align: top;
+}
+.rdOneLeft {
+    width: 150px;
+    height: 716px;
+    display: inline-block;
+    padding: 2px;
+    vertical-align: top;
+}
+.matchup {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #dedede;
+}
+.seed {
+    padding: 5px;
+    margin-right: 10px;
+}
+ul.roundOneLeft {
+    list-style-type: none;
+}
+.roundOneLeft li {
+    padding: 4px;
+}
+.rdTwoLeft {
+    width: 150px;
+    height: 716px;
+    padding: 2px;
+    display: inline-block;
+    vertical-align: top;
+}
+.rdTwoSelect {
+    Margin: 5px;
+    width: 125px;
+    height: 25px;
+}
+.matchup2 {
+    margin-top: 60px;
+    margin-bottom: 100px;
+    padding: 10px;
+    background-color: #dedede;
+}
+.rdThreeLeft {
+    width: 150px;
+    height: 716px;
+    padding: 2px;
+    display: inline-block;
+    vertical-align: top;
+}
+.matchup3 {
+    margin-top: 150px;
+    margin-bottom: 275px;
+    padding: 10px;
+    background-color: #dedede;
+}
+.rdThreeSelect {
+    Margin: 5px;
+    width: 125px;
+    height: 25px;
+}
+.eliteEightLeft {
+    width: 150px;
+    height: 716px;
+    padding: 2px;
+    display: inline-block;
+    vertical-align: top;
+}
+.matchup4 {
+    margin-top: 330px;
+    padding: 10px;
+    background-color: #dedede;
+}
+.eliteEightSelect {
+    Margin: 5px;
+    width: 125px;
+    height: 25px;
+}
+
+
+
+
+
+
