@@ -80,7 +80,7 @@ table {
     display: inline-block;
     vertical-align: top;
 }
-.rdOneLeft {
+.round {
     width: 150px;
     height: 716px;
     display: inline-block;
@@ -90,70 +90,33 @@ table {
 .matchup {
     margin: 20px 0;
     padding: 10px;
-    background-color: #dedede;
+    background-color: #fc6;
 }
-.seed {
-    padding: 5px;
-    margin-right: 10px;
-}
-ul.roundOneLeft {
+ul.contenders {
     list-style-type: none;
 }
-.roundOneLeft li {
+.contenders li {
     padding: 4px;
 }
-.rdTwoLeft {
-    width: 150px;
-    height: 716px;
-    padding: 2px;
-    display: inline-block;
-    vertical-align: top;
-}
-.rdTwoSelect {
-    Margin: 5px;
-    width: 125px;
-    height: 25px;
+li {
+	cursor: pointer;
 }
 .matchup2 {
     margin-top: 60px;
-    margin-bottom: 100px;
+    margin-bottom: 110px;
     padding: 10px;
-    background-color: #dedede;
-}
-.rdThreeLeft {
-    width: 150px;
-    height: 716px;
-    padding: 2px;
-    display: inline-block;
-    vertical-align: top;
+    background-color: #fc6;
 }
 .matchup3 {
     margin-top: 150px;
     margin-bottom: 275px;
     padding: 10px;
-    background-color: #dedede;
-}
-.rdThreeSelect {
-    Margin: 5px;
-    width: 125px;
-    height: 25px;
-}
-.eliteEightLeft {
-    width: 150px;
-    height: 716px;
-    padding: 2px;
-    display: inline-block;
-    vertical-align: top;
+    background-color: #fc6;
 }
 .matchup4 {
     margin-top: 330px;
     padding: 10px;
-    background-color: #dedede;
-}
-.eliteEightSelect {
-    Margin: 5px;
-    width: 125px;
-    height: 25px;
+    background-color: #fc6;
 }
 
 
