@@ -8,6 +8,7 @@ $(document).ready(function(){
 		console.log(contender);
 		
 		switch (selectId) {
+			//left bracket
 			case "wseed1":
 				$('#wWinner1').html(contender);
 				break;
@@ -94,6 +95,116 @@ $(document).ready(function(){
 			case "wWinner12":
 				$('#wWinner14').html(contender);
 				break;
+			
+			case "wWinner13":
+				$('#wWinner15').html(contender);
+				break;
+			case "wWinner14":
+				$('#wWinner15').html(contender);
+				break;
+				
+			//right bracket	
+			case "eseed1":
+				$('#eWinner1').html(contender);
+				break;
+			case "eseed16":
+				$('#eWinner1').html(contender);
+				break;
+			case "eseed8":
+				$('#eWinner2').html(contender);
+				break;
+			case "eseed9":
+				$('#eWinner2').html(contender);
+				break;
+			case "eseed5":
+				$('#eWinner3').html(contender);
+				break;
+			case "eseed12":
+				$('#eWinner3').html(contender);
+				break;
+			case "eseed4":
+				$('#eWinner4').html(contender);
+				break;
+			case "eseed13":
+				$('#eWinner4').html(contender);
+				break;
+			case "eseed6":
+				$('#eWinner5').html(contender);
+				break;
+			case "eseed11":
+				$('#eWinner5').html(contender);
+				break;
+			case "eseed3":
+				$('#eWinner6').html(contender);
+				break;
+			case "eseed14":
+				$('#eWinner6').html(contender);
+				break;
+			case "eseed7":
+				$('#eWinner7').html(contender);
+				break;
+			case "eseed10":
+				$('#eWinner7').html(contender);
+				break;
+			case "eseed2":
+				$('#eWinner8').html(contender);
+				break;
+			case "eseed15":
+				$('#eWinner8').html(contender);
+				break;
+				
+			case "eWinner1":
+				$('#eWinner9').html(contender);
+				break;
+			case "eWinner2":
+				$('#eWinner9').html(contender);
+				break;
+			case "eWinner3":
+				$('#eWinner10').html(contender);
+				break;
+			case "eWinner4":
+				$('#eWinner10').html(contender);
+				break;
+			case "eWinner5":
+				$('#eWinner11').html(contender);
+				break;
+			case "eWinner6":
+				$('#eWinner11').html(contender);
+				break;
+			case "eWinner7":
+				$('#eWinner12').html(contender);
+				break;
+			case "eWinner8":
+				$('#eWinner12').html(contender);
+				break;
+				
+			case "eWinner9":
+				$('#eWinner13').html(contender);
+				break;
+			case "eWinner10":
+				$('#eWinner13').html(contender);
+				break;
+			case "eWinner11":
+				$('#eWinner14').html(contender);
+				break;
+			case "eWinner12":
+				$('#eWinner14').html(contender);
+				break;
+					
+			case "eWinner13":
+				$('#eWinner15').html(contender);
+				break;
+			case "eWinner14":
+				$('#eWinner15').html(contender);
+				break;
+				
+			//championship	
+			case "eWinner15":
+				$('#theGOAT').html(contender);
+				break;
+			case "wWinner15":
+				$('#theGOAT').html(contender);
+				break;	
 				
 			default:
 				alert("Can't do that");
