@@ -81,6 +81,23 @@ body {
     position: relative;
     margin: 0 auto;
 }
+#user {
+	position: absolute;
+	background-color: #f63;
+	width: 210px;
+	height: 100px;
+	padding: 20px;
+	text-align: center;
+	left: 565px;
+	top: 150px;
+	border: 2px solid black;
+}
+#user p {
+
+}
+.userdata {
+	width: 200px;
+}
 #midwest {
     width: 650px;
     display: inline-block;
@@ -136,11 +153,11 @@ li {
 
 #championship {
 	width: 600px;
-	height: 200px;
+	height: 225px;
 	background-color: #f63;
 	position: absolute;
 	left: 400px;
-	top: 600px;
+	top: 605px;
 	border: 3px solid black;
 	display: inline-block;
 }
@@ -181,11 +198,15 @@ li {
 	display: inline-block;
 }
 #theGOAT {
-	width: 150px;
+	width: 140px;
 	font-size: 24px;
 	font-weight: bold;
 }
-
+#submit {
+	position: absolute;
+	left: 245px;
+	bottom: 20px;
+}
 #footer {
 	background-color: #f63;
 	width: 100%;
