@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link type="text/css" rel="stylesheet" href="style.css"/>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="application.js"></script>
+<script src="SpryAssets/SpryValidationTextField.js" type="text/javascript"></script>
+<title>Blenders Bracket Challenge</title>
+<link href="SpryAssets/SpryValidationTextField.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="header"> <a href="http://blenderscolumbia.com"><img src="BlendersOrangeWheel.png"/></a>
+  <h1>BLENDERS BRACKET CHALLENGE</h1>
+</div>
+<div id="container">
+<form id="userPicks" name="userPicks" method="post" action="includes/upsert.php">
+
+  
+  <div id="user">
+    <p>Email Address</p>
+    <span id="sprytextfield1">
+    <input name="email" type="text" class="userdata" id="email">
+    <span class="textfieldRequiredMsg">A value is required.</span></span>
+  </div>
+  
+  
+  <div id="west">
+    <div class="round">
+      <div class="matchup">
+        <ul class="contenders">
+          <li id="wseed1">1 Louisville</li>
+          <li id="wseed16">16 NC A T</li>
+        </ul>
+      </div>
+      <div class="matchup">
+        <ul class="contenders">
+          <li id="wseed8">8 Colorado St</li>
+          <li id="wseed9">9 Missouri</li>
+        </ul>
+      </div>
+      <div class="matchup">
+        <ul class="contenders">
+          <li id="wseed5">5 Oklahoma St</li>
+          <li id="wseed12">12 Oregon</li>
+        </ul>
+      </div>
+      <div class="matchup">
+        <ul class="contenders">
+          <li id="wseed4">4 St Louis</li>
+          <li id="wseed13">13 N Mex St</li>
+        </ul>
+      </div>
+      <div class="matchup">
+        <ul class="contenders">
+          <li id="wseed6">6 Memphis</li>
+          <li id="wseed11">11 St Marys</li>
+        </ul>
+      </div>
+      <div class="matchup">
+        <ul class="contenders">
+          <li id="wseed3">3 Michigan St</li>
+          <li id="wseed14">14 Valpo</li>
+        </ul>
+      </div>
+      <div class="matchup">
+        <ul class="contenders">
+          <li id="wseed7">7 Creighton</li>
+          <li id="wseed10">10 Cincinatti</li>
+        </ul>
+      </div>
+      <div class="matchup">
+        <ul class="contenders">
+          <li id="wseed2">2 Duke</li>
+          <li id="wseed15">15 Albany</li>
+        </ul>
+      </div>
+    </div>
+    
+    
+    <div class="round">
+      <div class="matchup2">
+        <ul class="contenders">
+          <li id="wWinner1">--</li>
+
+          <li id="wWinner2">--</li>
+          
+        </ul>
+      </div>
+      <div class="matchup2">
+        <ul class="contenders">
+          <li id="wWinner3">--</li>
+          
+          <li id="wWinner4">--</li>
+          
+        </ul>
+      </div>
+      <div class="matchup2">
+        <ul class="contenders">
+          <li id="wWinner5">--</li>
+          
+          <li id="wWinner6">--</li>
+          
+        </ul>
+      </div>
+      <div class="matchup2">
+        <ul class="contenders">
+          <li id="wWinner7">--</li>
+          
+          <li id="wWinner8">--</li>
+          
+        </ul>
+      </div>
+    </div>
+    
+    
+
+      <div class="matchup3" id="sweetSixteen1">
+        <ul class="contenders">
+          <li id="wWinner9">--</li>
+          
+          <li id="wWinner10">--</li>
+          
+        </ul>
+	  </div>
+      <div class="matchup3" id="sweetSixteen2">
+        <ul class="contenders">
+          <li id="wWinner11">--</li>
+          
+          <li id="wWinner12">--</li>
+          
+        </ul>
+      </div>
+
+    
+    
+
+      <div class="matchup4" id="eliteEight1">
+        <ul class="contenders">
+          <li id="wWinner13">--</li>
+          
+          <li id="wWinner14">--</li>
+          
+        </ul>
+      </div>
+
+    
+    
+  </div>
+  
+  
+  <div id="east">
+  
+  
+    <div class="round">
+      <div class="matchup4" id="eliteEight2">
+        <ul class="contenders">
+          <li id="eWinner13">--</li>
+          
+          <li id="eWinner14">--</li>
+          
+        </ul>
+      </div>
+    </div>
+    
+    
+
+      <div class="matchup3" id="sweetSixteen3">
+        <ul class="contenders">
+          <li id="eWinner9">--</li>
+          
+          <li id="eWinner10">--</li>
+          
+        </ul>
+      </div>
+      <div class="matchup3" id="sweetSixteen4">
+        <ul class="contenders">
+          <li id="eWinner11">--</li>
+         
+          <li id="eWinner12">--</li>
+          
+        </ul>
+      </div>
+
+    
+    
+    <div class="round">
+      <div class="matchup2">
+        <ul class="contenders">
+          <li id="eWinner1">--</li>
+          
+          <li id="eWinner2">--</li>
+          
+        </ul>
+      </div>
+      <div class="matchup2">
+        <ul class="contenders">
+          <li id="eWinner3">--</li>
+          
+          <li id="eWinner4">--</li>
+          
+        </ul>
+      </div>
+      <div class="matchup2">
+        <ul class="contenders">
+          <li id="eWinner5">--</li>
+          
+          <li id="eWinner6">--</li>
+          
+        </ul>
+      </div>
+      <div class="matchup2">
+        <ul class="contenders">
+          <li id="eWinner7">--</li>
+         
+          <li id="eWinner8">--</li>
+          
+        </ul>
+      </div>
+    </div>
+    
+    
+    <div class="round">
+      <div class="matchup">
+        <ul class="contenders">
+          <li id="eseed1">1 Louisville</li>
+          <li id="eseed16">16 NC A T</li>
+        </ul>
+      </div>
+      <div class="matchup">
+        <ul class="contenders">
+          <li id="eseed8">8 Colorado St</li>
+          <li id="eseed9">9 Missouri</li>
+        </ul>
+      </div>
+      <div class="matchup">
+        <ul class="contenders">
+          <li id="eseed5">5 Oklahoma St</li>
+          <li id="eseed12">12 Oregon</li>
+        </ul>
+      </div>
+      <div class="matchup">
+        <ul class="contenders">
+          <li id="eseed4">4 St Louis</li>
+          <li id="eseed13">13 N Mex St</li>
+        </ul>
+      </div>
+      <div class="matchup">
+        <ul class="contenders">
+          <li id="eseed6">6 Memphis</li>
+          <li id="eseed11">11 St Marys</li>
+        </ul>
+      </div>
+      <div class="matchup">
+        <ul class="contenders">
+          <li id="eseed3">3 Michigan St</li>
+          <li id="eseed14">14 Valpo</li>
+        </ul>
+      </div>
+      <div class="matchup">
+        <ul class="contenders">
+          <li id="eseed7">7 Creighton</li>
+          <li id="eseed10">10 Cincinatti</li>
+        </ul>
+      </div>
+      <div class="matchup">
+        <ul class="contenders">
+          <li id="eseed2">2 Duke</li>
+          <li id="eseed15">15 Albany</li>
+        </ul>
+      </div>
+    </div>
+    
+    
+  </div>
+  
+  
+  <div id="championship">
+    <div class="matchup5" id="champLeft">
+      <ul class="contenders">
+        <li id="wWinner15">--</li>
+        
+      </ul>
+    </div>
+    <div class="matchup5" id="champion">
+      <h1>CHAMPION</h1>
+      <ul id="champ">
+        <li id="theGOAT">--</li>
+        
+      </ul>
+    </div>
+    <div class="matchup5" id="champRight">
+      <ul class="contenders">
+        <li id="eWinner15">--</li>
+        
+      </ul>
+    </div>
+ 	<button name="submit" type="submit" id="submit">Submit Bracket</button>
+  </div>
+	<input type="hidden" name="wWinner1" id="wwin1" value=""/>
+	<input type="hidden" name="wWinner2" id="wwin2" value=""/>
+	<input type="hidden" name="wWinner3" id="wwin3" value=""/>
+	<input type="hidden" name="wWinner4" id="wwin4" value=""/>
+	<input type="hidden" name="wWinner5" id="wwin5" value=""/>
+	<input type="hidden" name="wWinner6" id="wwin6" value=""/>
+	<input type="hidden" name="wWinner7" id="wwin7" value=""/>
+	<input type="hidden" name="wWinner8" id="wwin8" value=""/>
+	<input type="hidden" name="wWinner9" id="wwin9" value=""/>
+	<input type="hidden" name="wWinner10" id="wwin10" value=""/>
+	<input type="hidden" name="wWinner11" id="wwin11" value=""/>
+	<input type="hidden" name="wWinner12" id="wwin12" value=""/>
+	<input type="hidden" name="wWinner13" id="wwin13" value=""/>
+	<input type="hidden" name="wWinner14" id="wwin14" value=""/>
+	<input type="hidden" name="wWinner15" id="wwin15" value=""/>
+
+	<input type="hidden" name="eWinner1" id="ewin1" value=""/>
+	<input type="hidden" name="eWinner2" id="ewin2" value=""/>
+	<input type="hidden" name="eWinner3" id="ewin3" value=""/>
+	<input type="hidden" name="eWinner4" id="ewin4" value=""/>
+	<input type="hidden" name="eWinner5" id="ewin5" value=""/>
+	<input type="hidden" name="eWinner6" id="ewin6" value=""/>
+	<input type="hidden" name="eWinner7" id="ewin7" value=""/>
+	<input type="hidden" name="eWinner8" id="ewin8" value=""/>
+	<input type="hidden" name="eWinner9" id="ewin9" value=""/>
+	<input type="hidden" name="eWinner10" id="ewin10" value=""/>
+	<input type="hidden" name="eWinner11" id="ewin11" value=""/>
+	<input type="hidden" name="eWinner12" id="ewin12" value=""/>
+	<input type="hidden" name="eWinner13" id="ewin13" value=""/>
+	<input type="hidden" name="eWinner14" id="ewin14" value=""/>          
+	<input type="hidden" name="eWinner15" id="ewin15" value=""/>
+
+	<input type="hidden" name="theGOAT" id="goat" value=""/>
+  
+</div>
+
+<div id="footer"> <a href="http://blenderscolumbia.com/"><img src="smoothiecup.png" id="smoothie"/></a>
+  <h2 id="slogan">Fill Up. For Real!</h2>
+</div>
+<script type="text/javascript">
+
+</script>
+
+
+</form>
+</body>
+
+</html>
